@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+body{
+    font-size: 14px;
+}
+
+.quadrado-competencias2 {
+    height: 20px;
+    margin: auto;
+    background-color: red;
+}
+.quadrado-competencias1 {
+    height: 20px;
+    margin: auto;
+    background-color: rgb(29,182,218);
+}
+.menu {
+    background-color: rgb(29,182,218);
+    height: 50px;
+    width: auto;
+    flex: 3;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menu ul li{
+    flex: 1;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 2em;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+/*Estilização do menu*/
+
+.banner{
+    background: url('../Imagens/imagem-banner.jpg');
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000;
+}
+.banner-text h2{
+    font-size: 2em;
+    text-shadow: 0 0 3px #000;
+}
+.logo{
+    width: 100px;
+}
+
+/*Estilização do título*/
+
+.duvidas h1{
+    background-color:rgb(29,182,218);
+    width: 50%;
+    height: auto;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-shadow: 0 0 3px #000;
+    font-weight: bold;
+    padding: 5%;
+}
+
+.duvidas p{
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    padding: 0 0 3% 0;
+}
+
+/*Estilização da área de chat*/
+
+.espacochat{
+    width: 22vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 0 5% 0;
+}
+
+.botao {
+    left: 50%;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:rgb(29,182,218);
+    color: white;
+    width: 200px;
+    box-shadow: 0px 1px 1px #ccc;
+}
+
+.botao:focus {
+    left: 50%;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 200px;
+    box-shadow: 0px 1px 1px #ccc;
+}
+
+.textoarea {
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    padding: 5% 5% 5% 5%;
+}
+
+.areatexto {
+    width: 350px;
+    height: 250px;
+    font-size: 30px;
+}
+
+
+/*Estilização do menu baixo*/
+
+.menubaixo {
+    background-color: rgb(29,182,218);
+    height: 100px;
+    width: auto;
+    flex: 3;
+}
+.menubaixo ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menubaixo ul li{
+    flex: 1;
+    text-align: center;
+}
+.menubaixo ul li h2{
+    font-size: 1.5em;
+}
+.menubaixo ul li h3{
+    font-size: 3em;
+    font-weight: bold;
+}
+.menubaixo ul li h4{
+    font-size: 5em;
+}

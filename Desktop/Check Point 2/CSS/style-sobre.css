@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+body{
+    font-size: 14px;
+}
+
+.quadrado-competencias2 {
+    height: 20px;
+    margin: auto;
+    background-color: red;
+}
+.quadrado-competencias1 {
+    height: 20px;
+    margin: auto;
+    background-color: rgb(29,182,218);
+}
+.menu {
+    background-color: rgb(29,182,218);
+    height: 50px;
+    width: auto;
+    flex: 3;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menu ul li{
+    flex: 1;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 2em;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+/*Estilização do menu*/
+
+.banner{
+    background: url('../Imagens/imagem-banner.jpg');
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000;
+}
+.banner-text h2{
+    font-size: 2em;
+    text-shadow: 0 0 3px #000;
+}
+.logo{
+    width: 100px;
+}
+
+/*Estilização do sobre*/
+
+.sobrecarfel h1{
+    font-size: 8em;
+    color: rgb(29,182,218);
+    text-align: center;
+    margin: auto;
+    text-shadow: 0 0 3px #000;
+    font-weight: bold;
+}
+
+.sobrecarfel h2{
+    font-size: 5em;
+    color: rgb(29,182,218);
+    text-align: center;
+    margin: auto;
+    text-shadow: 0 0 3px #000;
+    font-weight: bold;
+}
+
+.sobrecarfel p{
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    padding: 0 0 3% 0;
+}
+
+IMG.fachada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 1% 1% 1%;
+}
+
+/*Estilização história*/
+
+.historia-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.historiacarfel h1{
+    font-size: 4em;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 2%;
+}
+.historiacarfel p{
+    font-size: 1.5em;
+}
+.historia-item1{
+    flex: 2;
+    padding: 2%;
+}
+.historia-item2{
+    flex: 1;
+    padding: 2%;
+}
+
+/*Estilização do videos*/
+
+.videocarfel{
+    padding: 3% 0 3% 30%;
+}
+
+.videocarfel h1{
+    align-content: center;
+    font-size: 3em;
+    padding: 1%;
+}
+
+/*Estilização do menu baixo*/
+
+.menubaixo {
+    background-color: rgb(29,182,218);
+    height: 100px;
+    width: auto;
+    flex: 3;
+}
+.menubaixo ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menubaixo ul li{
+    flex: 1;
+    text-align: center;
+}
+.menubaixo ul li h2{
+    font-size: 1.5em;
+}
+.menubaixo ul li h3{
+    font-size: 3em;
+    font-weight: bold;
+}
+.menubaixo ul li h4{
+    font-size: 5em;
+}

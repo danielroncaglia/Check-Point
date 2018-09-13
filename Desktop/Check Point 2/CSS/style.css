@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+body{
+    font-size: 14px;
+}
+
+.quadrado-competencias2 {
+    height: 40px;
+    margin: auto;
+    background-color: red;
+}
+.quadrado-competencias1 {
+    height: 20px;
+    margin: auto;
+    background-color: rgb(29,182,218);
+}
+.menu {
+    background-color: rgb(29,182,218);
+    height: 50px;
+    width: auto;
+    flex: 3;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menu ul li{
+    flex: 1;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 2em;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/*Estilização do menu*/
+
+.banner{
+    background: url('../Imagens/imagem-banner.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 7em;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000;
+}
+.banner-text h2{
+    font-size: 3em;
+    text-shadow: 0 0 3px #000;
+}
+.logo{
+    width: 200px;
+}
+
+/*Estilização das funcionalidades*/
+
+.funcionalidade p{
+    font-size: 2em;
+    color: black;
+    text-align: justify;
+    padding: 2%;
+    width: 68%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Estilização de contatos*/
+
+#contatos{
+    text-align: center;
+    margin: auto;
+    padding: 20px 0 50px 0;
+}
+.contatos-itens{
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+.contatos-item1 h2{
+    font-size: 4em;
+    margin: auto;
+}
+
+.contatos-item2{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+}
+.contatos-item2 h3 a{
+    font-size: 5em;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    
+}
+.contatos-item2 h4 a{
+    font-size: 2.5em;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    
+}
+.contatos-item2 h3 a:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+.contatos-item2 h4 a:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+.contatos-item3{
+    background-color: rgb(29,182,218);
+    width: 300px;
+    height: 200px;
+}
+.contatos-item3 h5 a{
+    font-size: 4em;
+    margin: auto;
+    text-decoration: none;
+    
+}
+.contatos-item3 h6 a{
+    font-size: 3em;
+    margin: auto;
+    text-decoration: none;
+}
+.contatos-item3 h5 a:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+.contatos-item3 h6 a:hover{
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+/*Estilização dos planos*/
+
+#planos{
+    text-align: center;
+    margin: auto;
+    padding: 20px 0 50px 0;
+}
+.planos-item{
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+#planos h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.planos-itens {
+    background-color: rgb(29,182,218);
+    width: 450px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planos-itens h2{
+    font-size: 2.8em;
+    margin-bottom: 1.2em;
+    color: red;
+}
+.planos-itens li{
+    font-size: 1.5em;
+}
+.planos-itens ul{
+    list-style: none;
+}
+
+/*Estilização do menu baixo*/
+
+.menubaixo {
+    background-color: rgb(29,182,218);
+    height: 100px;
+    width: auto;
+    flex: 3;
+}
+.menubaixo ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menubaixo ul li{
+    flex: 1;
+    text-align: center;
+}
+.menubaixo ul li h2{
+    font-size: 1.5em;
+}
+.menubaixo ul li h3{
+    font-size: 3em;
+    font-weight: bold;
+}
+.menubaixo ul li h4{
+    font-size: 5em;
+}

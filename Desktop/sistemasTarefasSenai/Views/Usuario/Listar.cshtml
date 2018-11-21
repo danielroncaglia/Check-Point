@@ -1,0 +1,37 @@
+@using Sistema.Models;
+<h3>Listagem de usuarios</h3>
+<table>
+    <thead>
+        <tr>
+            <td>Nome</td>
+            <td>E-mail</td>
+            <td>Data de Nascimento</td>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (UsuarioModel usuario in ViewData["Usuarios"] as List<UsuarioModel>)
+        {
+            <tr>
+                <td>
+                    @usuario.ID
+                </td>
+                <td>
+                    @usuario.Nome
+                </td>
+                <td>
+                    @usuario.Email
+                </td>
+                <td>
+                    @usuario.Senha
+                </td>
+                <td>
+                    @usuario.Tipo
+                </td>
+                <td>
+                    @usuario.DataCriacao.ToShortDateString()
+                </td>                
+            </tr>
+        }
+    </tbody>
+</table>
